@@ -97,12 +97,12 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/kpachhai/.volumes/elastos-privnet/mainchain-node
+          path: /home/rahulguna2/.volumes/elastos-privnet/mainchain-node
         name: privnet-mainchain-node-hostpath0
       - hostPath:
-          path: /home/kpachhai/dev/src/github.com/tuum-tech/elastos-privnet/blockchain/ela-mainchain/node_normal/mainchain-node/config.json
+          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-mainchain/node_normal/mainchain-node/config.json
         name: privnet-mainchain-node-hostpath1
       - hostPath:
-          path: /home/kpachhai/dev/src/github.com/tuum-tech/elastos-privnet/blockchain/ela-mainchain/node_normal/mainchain-node/keystore.dat
+          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-mainchain/node_normal/mainchain-node/keystore.dat
         name: privnet-mainchain-node-hostpath2
 status: {}
