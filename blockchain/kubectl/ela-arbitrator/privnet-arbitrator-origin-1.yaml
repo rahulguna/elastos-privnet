@@ -75,7 +75,7 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/.volumes/elastos-privnet/arbitrator-origin-1
+          path: /data/volumes/elastos-privnet/arbitrator-origin-1
         name: privnet-arbitrator-origin-1-hostpath0
       - hostPath:
           path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-arbitrator/node_origin/arbitrator-origin-1/config.json
