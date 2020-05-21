@@ -97,7 +97,7 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /data/volumes/elastos-privnet/mainchain-node
+          path: /data/volumes/elastos-privnet/mainchain-node/elastos
         name: privnet-mainchain-node-hostpath0
       - hostPath:
           path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-mainchain/node_normal/mainchain-node/config.json
