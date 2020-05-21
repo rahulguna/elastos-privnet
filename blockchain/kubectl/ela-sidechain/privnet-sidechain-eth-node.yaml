@@ -87,7 +87,7 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/.volumes/elastos-privnet/eth-node
+          path: /data/volumes/elastos-privnet/eth-node
         name: privnet-sidechain-eth-node-hostpath0
       - hostPath:
           path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-sidechain/eth/eth-node/eth-accounts-pass.txt
