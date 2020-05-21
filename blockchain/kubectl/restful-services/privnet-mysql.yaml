@@ -79,6 +79,6 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/.volumes/elastos-privnet/mysql
+          path: /data/volumes/elastos-privnet/mysql
         name: privnet-mysql-hostpath0
 status: {}
