@@ -97,7 +97,7 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/.volumes/elastos-privnet/mainchain-crc-1
+          path: /data/volumes/elastos-privnet/mainchain-crc-1
         name: privnet-mainchain-crc-1-hostpath0
       - hostPath:
           path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-mainchain/node_crc/mainchain-crc-1/config.json
