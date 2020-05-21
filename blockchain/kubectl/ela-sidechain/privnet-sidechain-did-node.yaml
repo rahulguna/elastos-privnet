@@ -87,9 +87,9 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/kpachhai/.volumes/elastos-privnet/did-node
+          path: /home/rahulguna2/.volumes/elastos-privnet/did-node
         name: privnet-sidechain-did-node-hostpath0
       - hostPath:
-          path: /home/kpachhai/dev/src/github.com/tuum-tech/elastos-privnet/blockchain/ela-sidechain/did/did-node/config.json
+          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-sidechain/did/did-node/config.json
         name: privnet-sidechain-did-node-hostpath1
 status: {}
