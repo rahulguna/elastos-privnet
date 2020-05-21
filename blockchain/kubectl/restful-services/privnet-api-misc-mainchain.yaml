@@ -68,12 +68,12 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/kpachhai/dev/src/github.com/tuum-tech/elastos-privnet/blockchain/restful-services/api-misc/mainchain/config.json
+          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/restful-services/api-misc/mainchain/config.json
         name: privnet-api-misc-mainchain-hostpath0
       - hostPath:
-          path: /home/kpachhai/dev/src/github.com/tuum-tech/elastos-privnet/blockchain/restful-services/api-misc/mainchain/erc20.json
+          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/restful-services/api-misc/mainchain/erc20.json
         name: privnet-api-misc-mainchain-hostpath1
       - hostPath:
-          path: /home/kpachhai/dev/src/github.com/tuum-tech/elastos-privnet/blockchain/restful-services/api-misc/mainchain/deploy.sh
+          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/restful-services/api-misc/mainchain/deploy.sh
         name: privnet-api-misc-mainchain-hostpath2
 status: {}
