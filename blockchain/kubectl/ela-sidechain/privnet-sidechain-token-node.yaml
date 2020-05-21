@@ -87,7 +87,7 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/.volumes/elastos-privnet/token-node
+          path: /data/volumes/elastos-privnet/token-node
         name: privnet-sidechain-token-node-hostpath0
       - hostPath:
           path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-sidechain/token/token-node/config.json
