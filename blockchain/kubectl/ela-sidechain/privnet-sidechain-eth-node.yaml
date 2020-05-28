@@ -90,6 +90,6 @@ spec:
           path: /data/volumes/elastos-privnet/eth-node/elastos_eth
         name: privnet-sidechain-eth-node-hostpath0
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-sidechain/eth/eth-node/eth-accounts-pass.txt
+          path: /data/volumes/elastos-privnet/eth-node/eth-accounts-pass.txt
         name: privnet-sidechain-eth-node-hostpath1
 status: {}
