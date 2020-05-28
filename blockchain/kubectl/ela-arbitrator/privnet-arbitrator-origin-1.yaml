@@ -78,9 +78,9 @@ spec:
           path: /data/volumes/elastos-privnet/arbitrator-origin-1/elastos_arbiter
         name: privnet-arbitrator-origin-1-hostpath0
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-arbitrator/node_origin/arbitrator-origin-1/config.json
+          path: /data/volumes/elastos-privnet/arbitrator-origin-1/config.json
         name: privnet-arbitrator-origin-1-hostpath1
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-arbitrator/node_origin/arbitrator-origin-1/keystore.dat
+          path: /data/volumes/elastos-privnet/arbitrator-origin-1/keystore.dat
         name: privnet-arbitrator-origin-1-hostpath2
 status: {}
