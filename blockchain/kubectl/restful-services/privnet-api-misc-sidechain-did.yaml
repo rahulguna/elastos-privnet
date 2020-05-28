@@ -66,9 +66,9 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/restful-services/api-misc/sidechain/did/config.json
+          path: /data/volumes/elastos-privnet/misc-service/sidechain/did/config.json
         name: privnet-api-misc-sidechain-did-hostpath0
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/restful-services/api-misc/sidechain/did/deploy.sh
+          path: /data/volumes/elastos-privnet/misc-service/sidechain/did/deploy.sh
         name: privnet-api-misc-sidechain-did-hostpath1
 status: {}
