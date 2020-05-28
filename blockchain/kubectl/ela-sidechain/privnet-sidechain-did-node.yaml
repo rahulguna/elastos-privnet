@@ -90,6 +90,6 @@ spec:
           path: /data/volumes/elastos-privnet/did-node/elastos_did
         name: privnet-sidechain-did-node-hostpath0
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-sidechain/did/did-node/config.json
+          path: /data/volumes/elastos-privnet/did-node/config.json
         name: privnet-sidechain-did-node-hostpath1
 status: {}
