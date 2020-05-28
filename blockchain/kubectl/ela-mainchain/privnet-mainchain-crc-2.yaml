@@ -100,9 +100,9 @@ spec:
           path: /data/volumes/elastos-privnet/mainchain-crc-2/elastos
         name: privnet-mainchain-crc-2-hostpath0
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-mainchain/node_crc/mainchain-crc-2/config.json
+          path: /data/volumes/elastos-privnet/mainchain-crc-2/config.json
         name: privnet-mainchain-crc-2-hostpath1
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/ela-mainchain/node_crc/mainchain-crc-2/keystore.dat
+          path: /data/volumes/elastos-privnet/mainchain-crc-2/keystore.dat
         name: privnet-mainchain-crc-2-hostpath2
 status: {}
