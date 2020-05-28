@@ -64,6 +64,6 @@ spec:
       restartPolicy: Always
       volumes:
       - hostPath:
-          path: /home/rahulguna2/Documents/elastos-privnet/blockchain/restful-services/wallet/application-mainchain-token.properties
+          path: /data/volumes/elastos-privnet/wallet-service/application-mainchain-token.properties
         name: privnet-wallet-service-tokensidechain-hostpath0
 status: {}
